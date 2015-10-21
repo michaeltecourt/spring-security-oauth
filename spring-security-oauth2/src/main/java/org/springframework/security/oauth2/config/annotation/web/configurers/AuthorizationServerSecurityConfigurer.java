@@ -126,7 +126,7 @@ public final class AuthorizationServerSecurityConfigurer extends
 			http.userDetailsService(new ClientDetailsUserDetailsService(clientDetailsService()));
 		}
 		http.securityContext().securityContextRepository(new NullSecurityContextRepository()).and().csrf().disable()
-				.httpBasic().realmName(realm);
+				.httpBasic().realmName(realm).authenticationEntryPoint(authenticationEntryPoint);
 	}
 
 	private PasswordEncoder passwordEncoder() {
