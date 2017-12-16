@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/spring-projects/spring-security-oauth.svg?branch=master)](https://travis-ci.org/spring-projects/spring-security-oauth) 
 
+:warning: **spring-security-oauth is in maintenance mode and all our efforts are focused in building OAuth/OIDC support in [Spring Security 5.x](http://projects.spring.io/spring-security)**
+
 This project provides support for using Spring Security with OAuth
 (1a) and OAuth2.  It provides features for implementing both consumers
 and providers of these protocols using standard Spring and Spring
